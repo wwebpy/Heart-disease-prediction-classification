@@ -5,9 +5,10 @@ The goal is to build an explainable classification model and present the results
 
 The focus is not only on prediction accuracy, but also on model transparency using SHAP explanations.
 
-<img src="streamlit Input.png" width="49%"/>
-<img src="streamlit data.png" width="49%"/>
----
+<p align="center">
+  <img src="streamlit Input.png" width="49%">
+  <img src="streamlit data.png" width="49%">
+</p>
 
 ## Project Overview
 
