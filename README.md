@@ -37,7 +37,7 @@ The focus is not only on prediction accuracy, but also on model transparency usi
 
 <p align="center">
   <img src="roc model curve.png" width="49%">
-  <img src="shap mean feature impact.png" width="49%">
+  <img src="shap mean feature impact .png" width="49%">
 </p>
 
 ---
