@@ -24,14 +24,17 @@ The focus is not only on prediction accuracy, but also on model transparency usi
 
 ## Modeling Approach
 
-1. Data cleaning and preprocessing  
-2. Train / test split with stratification  
-3. Model training and evaluation  
-4. Comparison using:
+1. Data cleaning and preprocessing
+   - Dumping features
+   - Imputation
+   - Dummy Encoding  
+3. Train / test split with stratification  
+4. Model training and evaluation  
+5. Comparison using:
    - Accuracy
    - Precision / Recall / F1-score
    - ROC AUC  
-5. Model explainability with SHAP:
+6. Model explainability with SHAP:
    - Global feature importance
    - Local (individual) explanations  
 
