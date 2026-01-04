@@ -84,6 +84,6 @@ print(feature_importance_df.head(10))
 
 
 # Model speichern
-model_path = Path('../../models/xgboost.joblib')
+model_path = Path('../../models/xgboost_model.joblib')
 joblib.dump(xgb_pipeline, model_path)
 print(f"\nModel saved to {model_path}")
