@@ -22,27 +22,6 @@ The focus is not only on prediction accuracy, but also on model transparency usi
 
 ---
 
-## Dataset
-
-- Source: Kaggle – Heart Disease Dataset  
-- Target variable:
-  - `target = 1` → heart disease present  
-  - `target = 0` → no heart disease  
-
-**Features include:**
-- Age  
-- Blood pressure  
-- Cholesterol  
-- Maximum heart rate  
-- ST depression  
-- Chest pain type  
-- Exercise-induced angina  
-- Sex and ECG-related features  
-
-Missing values were handled using imputation, and categorical variables were encoded before training.
-
----
-
 ## Modeling Approach
 
 1. Data cleaning and preprocessing  
@@ -56,7 +35,10 @@ Missing values were handled using imputation, and categorical variables were enc
    - Global feature importance
    - Local (individual) explanations  
 
-The Random Forest model was selected as the final model due to strong performance and good interpretability.
+<p align="center">
+  <img src="roc model curve.png" width="49%">
+  <img src="shap mean feature impact.png" width="49%">
+</p>
 
 ---
 
